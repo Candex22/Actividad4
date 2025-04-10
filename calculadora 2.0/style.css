@@ -2,9 +2,12 @@ body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     display: flex;
     justify-content: center;
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     align-items: center;
     height: 100vh;
-    background-color: #87CEEB; /* Azul cielo */
+    /*background-color: #87CEEB; Azul cielo */
     margin: 0;
 }
 
