@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Calculadora de Patitos!</title>
     <link rel="stylesheet" href="style.css">
-    <title>Calculadora</title>
 </head>
 <body>
     <div class="calculator">
-        <h2>Calculadora</h2>
-
+        <h2>¡Calcula con patitos!</h2>
         <input type="text" id="display" disabled>
         <div class="buttons">
             <button onclick="clearDisplay()">C</button>
@@ -35,10 +33,10 @@
             
             <button onclick="appendValue('0')" class="zero">0</button>
             <button onclick="appendValue('.')">.</button>
-            
+            <button onclick="scuack('')">🦆</button>
         </div>
+        <div id="result-display"></div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
