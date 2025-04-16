@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Calendario</title>
+    <title>Mi Calendario Divertido</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <div class="left-section">
             <div class="calendar">
+                <div class="calendar__title">Mi Calendario</div>
                 <div class="calendar__info">
                     <button class="calendar__prev" id="prev-month">◀</button>
                     <div class="calendar__month" id="month">Enero</div>
@@ -30,20 +32,19 @@
                 <div class="calendar__dates" id="dates"></div>
             </div>
             <div class="event-form">
-                <h3> Agregar Evento</h3>
+                <h3>¡Nuevo Evento!</h3>
                 <input type="date" id="event-date">
-                <input type="text" id="event-title" placeholder="Descripción del evento">
-                <button id="save-event">Guardar</button>
+                <input type="text" id="event-title" placeholder="¿Qué harás este día?">
+                <button id="save-event">¡Guardar mi evento!</button>
             </div>
         </div>
         <div class="right-section">
-            <h2> Eventos del Día</h2>
+            <h2>Mis Eventos</h2>
+            <div class="selected-day" id="selected-day">Hoy</div>
             <ul id="day-events"></ul>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
-
-</html>
 
 </html>
